@@ -1,0 +1,12 @@
+.gallery{
+    display: inline-block;
+    border: 1px solid rgb(144, 144, 144);
+    margin: 5px;
+}
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid rgb(65, 64, 64);
+}

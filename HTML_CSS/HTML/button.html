@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            height: 46px; 
+            width: 70px;
+            background-color: blueviolet;
+            box-shadow: 5px 5px 5px ;
+            border-radius: 20px; 
+        }
+    </style>
+</head>
+<body>
+
+        <button onclick="Dosomething()">CLICK ME</button>
+        <p id="greet">HELLO</p>
+        <script>
+            function Dosomething(){
+                document.getElementById("greet").innerHTML = "Goodbye";
+            }
+        </script>
+</body>
+</html>

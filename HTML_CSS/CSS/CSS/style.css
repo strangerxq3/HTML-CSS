@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+/* #p1{
+    color: rgb(242, 118, 118);
+}
+#p2{
+    color: rgb(118, 122, 242);
+}
+#p3{
+    color: rgb(242, 118, 236);
+}
+#p4{
+    color: rgb(118, 219, 242);
+} */
+.odd{
+    color: rgb(118, 219, 242);
+}
+.even{
+    color: rgb(242, 118, 118);
+}

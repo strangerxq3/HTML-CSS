@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <label for="1">Username:</label>
+        <input type="text" id="1" placeholder = "USERNAME" minlength="5" maxlength="7" required>
+        
+        <br>
+
+        <label for="2">Password:</label>
+        <input type="password" id="2" placeholder="xxxxxxxx" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id = "email" placeholder="hyperTML@gmail.com"><br>
+        
+        <label for="phone">Mobile-No:</label>
+        <input type="tel" id="phone" placeholder="+123-###-###" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+        
+        <label for="bday">BirthDate:</label>
+        <input type="date" id="bday"><br>
+
+        <label for="quntity">Quantity:</label>
+        <input type="number" id="quntity" min="0" max="99"><br>
+
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male"  name = "gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name = "gender"><br>
+
+        <label for="payment"> Payment:</label>
+        <select >
+            <option value="VisaCard">Visa-Card</option>
+            <option value="MasterCard">Master-Card</option>
+            <option value="GiftCard">Gift-Card</option>
+        </select><br>
+
+        <label for="Remmenber-Me">Remmenber-me</label>
+        <input type="checkbox"  id="Remmenber-Me"><br>
+
+        <label for="Comment">Comment:</label>
+        <textarea id="Comment " rows="3" cols="25"></textarea><br>
+
+        <label for="file">jpg:</label>
+        <input type="file" id="file" accept="image/png">
+        
+        <input type="reset">
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

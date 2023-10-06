@@ -1,0 +1,14 @@
+@font-face{
+    src: url(fonts/Roboto-Medium.ttf);
+    font-family: Roboto-Medium;
+}
+
+h1{
+    font-family: Roboto-Medium;
+}
+p{
+    font-family: Roboto-Medium ;
+    font-size: 1em;
+    /* font-weight: bold; */
+    /* font-style: italic */
+}
