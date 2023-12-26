@@ -1,9 +1,13 @@
 .cantainer{
     display: flex;
     border: 10px solid black;
-    height: 90vh;
-    flex-wrap: wrap-reverse;
-    align-content: space-between;
+    background-color: DodgerBlue;
+    height: 200px;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: column wrap; */
+    /* justify-content: space-between; */
+    align-items: stretch ;
 }
 .box{
     width: 150px;
